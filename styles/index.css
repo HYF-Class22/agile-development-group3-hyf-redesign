@@ -6,7 +6,7 @@ body {
 }
 
 
-/* keep style in general above */
+/* keep style above */
 /* add your parts for media query below- Add specific screen if needed  */
 
 @media only screen and (max-width: 600px) {
