@@ -1,1 +1,16 @@
 @import url("./something.css");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+
+body {
+  background-color: white;
+}
+
+/* keep style above */
+
+/* add your parts for media query below- Add specific screen width if needed  */
+
+@media only screen and (width <= 600px) {
+  body {
+    font-size: 18px;
+  }
+}
