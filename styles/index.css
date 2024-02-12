@@ -3,9 +3,9 @@
 
 /* CSS Variables  */
 :root {
-  --blue: #1C2094; 
+  --blue: #1c2094;
   --white: #fff;
-  --font-title: 'Oswald', sans-serif;
+  --font-title: "Oswald", sans-serif;
   --font-text: helvetica, sans-serif;
 }
 
@@ -21,5 +21,4 @@ body {
   body {
     font-size: 18px;
   }
-
 }
