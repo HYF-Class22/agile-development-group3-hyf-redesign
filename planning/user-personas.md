@@ -10,9 +10,9 @@ There are four user personas for hyf website
 
 ## Future student
 
-- **Bio**: `Haftu` graduated from University but struggling to find a job with his
-  degree in literature. He decided to change his field to tech and eager to find
-  a school and now comparing the school by looking at the websites.
+- **Bio**: `Haftu` graduated from University but struggling to find a job with
+  his degree in literature. He decided to change his field to tech and eager to
+  find a school and now comparing the school by looking at the websites.
 - **Needs/Goals**: `Haftu` wants to choose one coding school based on the class
   atmosphere and how easy to contact
 - **Frustrations**: He wants to know how is the atmosphere of the class by
@@ -28,8 +28,8 @@ There are four user personas for hyf website
 
 ## Supporter
 
-- **Bio**: `Alina` is business owner whom would like to support or give donations
-  to non profit organizations.
+- **Bio**: `Alina` is business owner whom would like to support or give
+  donations to non profit organizations.
 - **Needs/Goals**: Make a difference by donating or contributing in other ways
 - **Frustrations**: inability to self service (she found the frequently asked
   questions not readily available to customers who prefer self service support)
