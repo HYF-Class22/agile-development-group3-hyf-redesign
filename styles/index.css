@@ -14,6 +14,16 @@ body {
   background-color: var(--white);
 }
 
+img {
+  width: 90%;
+  max-width: 2048px;
+  height: 400px;
+  object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .testimonials {
   padding: 40px 0;
   background: #f1f1f1;
@@ -63,16 +73,6 @@ body {
   font-size: 20px;
   text-transform: uppercase;
   margin: 20px 0;}
-
-img {
-  width: 90%;
-  max-width: 2048px;
-  height: 400px;
-  object-fit: cover;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 h1 {
   font-family: var(--font-title);
