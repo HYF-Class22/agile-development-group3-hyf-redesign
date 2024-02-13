@@ -61,18 +61,41 @@
     <section>
       <h2>Testimony</h2>
       <!-- testimony content -->
-    </section>
-
-    <!-- Links for user  Section-->
-    <section></section>
-
-    <!-- contact form Section -->
-    <section>
-      <h2>Contact Us</h2>
-      <form>
-        <!-- Add contact form -->
-        <!-- Submit button -->
-        <button type="submit">Submit</button>
+      <h2 class="form2">Contact Us</h2>
+      <form class="form3" action="action_page.php" method="POST">
+        <label for="title"> Title:</label>
+        <label for="Mr">Mr.: </label>
+        <input type="radio" id="Mr" name="Title" value="Mr." />
+        <label for="Mrs.">Mrs.: </label>
+        <input type="radio" id="Mrs" name="Title" value="Mrs." />
+        <label for="PhD">PhD: </label>
+        <input type="radio" id="PhD" name="Title" value="PhD" />
+        <br />
+        <label for="fname">First name: </label>
+        <input type="text" id="fname" name placeholder="first name" required />
+        <br />
+        <label for="lname">Last name: </label>
+        <input type="text" id="lname" name placeholder="last name" required />
+        <br />
+        <label for="email">email: </label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="hyfh@gmail.com"
+          required
+        />
+        <br />
+        <label for="phone"> Phone #: </label>
+        <input type="tel" id="phone" name="phone" placeholder="+324-8331-013" />
+        <br />
+        <label for="msg"> Message:</label>
+        <input type="text" placeholder="type your thought or question here" />
+        <br />
+        <button type="reset" id="res">Rest</button>
+        <button type="submit" id="btn">Submit</button>
+        <label for="subscribe">Subscribe: </label>
+        <input type="checkbox" id="subscribe" />
       </form>
     </section>
 
