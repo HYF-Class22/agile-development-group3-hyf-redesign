@@ -1,7 +1,8 @@
-@import url("./something.css");
+@import url("styles/index.css");
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
 
 /* CSS Variables  */
+
 :root {
   --blue: #1c2094;
   --white: #fff;
@@ -83,4 +84,39 @@ p {
     flex: 100%;
     margin-bottom: 20px;
   }
+}
+
+.form2 {
+  font-family: var(--font-text);
+  background-color: var(--white);
+  letter-spacing: 0.05em;
+  font-weight: normal;
+  font-size: 26px;
+  text-align: justify;
+  color: var(--blue);
+}
+
+.form3 {
+  font-size: 16px;
+  font-family: var(--font-text);
+  letter-spacing: 0.05em;
+  line-height: 2;
+  text-align: justify;
+  color: var(--blue);
+  font-weight: normal;
+}
+
+#res {
+  color: var(--blue);
+  font-weight: bold;
+}
+
+#btn {
+  color: var(--blue);
+  font-weight: bold;
+}
+
+#subscribe {
+  color: var(--blue);
+  font-weight: bold;
 }
