@@ -1,8 +1,16 @@
 @import url("./something.css");
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
 
+/* CSS Variables  */
+:root {
+  --blue: #1c2094;
+  --white: #fff;
+  --font-title: "Oswald", sans-serif;
+  --font-text: helvetica, sans-serif;
+}
+
 body {
-  background-color: white;
+  background-color: var(--white);
 }
 
 /* keep style above */
