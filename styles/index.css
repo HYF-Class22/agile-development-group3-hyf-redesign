@@ -72,7 +72,7 @@ nav li {
   font-size: 36px;
 }
 
-li:focus-within ul {
+nav li:focus-within ul {
   display: block;
   z-index: 1;
 }
