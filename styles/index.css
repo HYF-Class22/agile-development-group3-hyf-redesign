@@ -13,6 +13,16 @@ body {
   background-color: var(--white);
 }
 
+img {
+  width: 90%;
+  max-width: 2048px;
+  height: 400px;
+  object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* keep style above */
 
 /* add your parts for media query below- Add specific screen width if needed  */
