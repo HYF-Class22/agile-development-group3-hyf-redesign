@@ -13,12 +13,119 @@ body {
   background-color: var(--white);
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--white);
+  padding: 10px 50px;
+}
+
+.logo {
+  margin-right: 250px;
+}
+
+nav {
+  width: 100%;
+  text-transform: uppercase;
+  font-family: var(--font-text);
+  font-size: 16px;
+}
+
+nav a {
+  background-color: var(--white);
+  display: inline-block;
+  color: var(--blue);
+  text-align: right;
+  padding: 10px 15px;
+  margin-right: 24px;
+  text-decoration: none;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  text-wrap: nowrap;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav li {
+  display: inline-block;
+  position: relative;
+}
+
+.sub-program {
+  display: none;
+  position: absolute;
+  background-color: var(--white);
+  font-size: 12px;
+  border: 1px solid #1c2094;
+  box-shadow: 2px 2px 2px gainsboro;
+}
+
+.menu-heading {
+  display: none;
+}
+
+.menu-icon {
+  font-size: 36px;
+}
+
+li:focus-within ul {
+  display: block;
+  z-index: 1;
+}
+
 /* keep style above */
 
 /* add your parts for media query below- Add specific screen width if needed  */
 
-@media only screen and (width <= 600px) {
-  body {
+@media only screen and (width <= 1200px) {
+  .menu-heading {
+    display: inline-block;
+    position: absolute;
+    right: 60px;
+    top: 70px;
     font-size: 18px;
+  }
+
+  nav {
+    padding: 0 10px;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  nav li {
+    display: block;
+    margin-bottom: 8px;
+    text-align: center;
+  }
+
+  nav:hover ul {
+    display: block;
+  }
+
+  .menu-heading:focus-within ul {
+    display: block;
+  }
+
+  nav:hover .menu-icon {
+    display: none;
+  }
+
+  .logo {
+    margin-right: 0;
+    width: 200px;
+  }
+
+  nav:hover .sub-program {
+    display: none;
+  }
+
+  .program:focus + ul {
+    display: block;
+    z-index: 1;
   }
 }
