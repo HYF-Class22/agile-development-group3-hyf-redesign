@@ -244,7 +244,8 @@ footer i {
   text-decoration: none;
 }
 
-footer i:hover {
+footer i:hover,
+.email:hover {
   color: var(--gray);
 }
 
@@ -308,6 +309,10 @@ footer i:hover {
     font-size: 40px;
     color: var(--blue);
     text-align: center;
+  }
+
+  footer i {
+    margin: 0 12px;
   }
 
   .article-box {
