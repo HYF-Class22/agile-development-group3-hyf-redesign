@@ -3,24 +3,34 @@
 ## Group Rules
 
 <!-- any general rules you'd like to set for your group? -->
+- Always give Feedback and Suggestions in the shared Google Doc for other members
+to read and review.
+  
+- Always communicate
 
 ---
 
 ## Communication Schedule
 
-| Day | How | The topic of discussion |
-| --- | :-: | ----------------------- |
-|     |     |                         |
+| Day       | How  | The topic of discussion                                                            |
+| ----------| :-:  | -----------------------------------------------------------------------------------|
+|  monday   |zoom  |review structure in index html and index css, review css variables and how to use it|
+| tuesday   |zoom  |work on using media queries and post texts of planning in discussions for feedbacks |
+| wednesday |zoom  | working on index html ang giving feedbacks ,discus the use of figma for the project|
 
 ## Communication Channels
 
 how often will we get in touch on each channel, and what we will discuss there:
 
-- **Issues**:
-- **Pull Requests**:
-- **GitHub Discussions**
-- **Slack/Discord**:
-- **Video Calls**:
+- **Issues**: Each team member creates an issue for the task they are working on.
+
+- **Pull Requests**: Notifications (via email) are checked regularly.
+                    :End-of-day checks are conducted every day.
+
+- **GitHub Discussions**: Monitored with the same frequency as Pull Requests.
+- **Slack/Discord**: Utilized for questions and discussions.
+- **Video Calls**: Scheduled on monday,Tuesday, Wednesday,thursday and Friday
+                  at 2:15 pm monday and 3:15 pm the other day for team progress updates.
 
 ---
 
@@ -28,17 +38,19 @@ how often will we get in touch on each channel, and what we will discuss there:
 
 ### Availability for calling/messaging
 
-| Day    | Monday  | Tuesday | Wednesday | Thursday | Friday  | Saturday | Sunday  |
-| ------ | :-----: | :-----: | :-------: | :------: | :-----: | :------: | :-----: |
-| _name_ | 13 - 20 | 13 - 20 |  13 - 20  | 13 - 20  | 13 - 20 | 13 - 20  | 13 - 20 |
+| Day    | Monday  | Tuesday | Wednesday | Thursday | Friday  |
+| ------ | :-----: | :-----: | :-------: | :------: | :-----: |
+| choti  | 14 - 16 | 14 - 16 |  14 - 16  | 14 - 16  | 14 - 16 |
+| hitomi | 14 - 16 | 14 - 16 |  14 - 16  | 14 - 16  | 14 - 16 |
+| haftu  | 14 - 16 | 14 - 16 |  14 - 16  | 14 - 16  | 14 - 16 |
+| prince | 14 - 16 | 14 - 16 |  14 - 16  | 14 - 16  | 14 - 16 |
 
 ### How many hours everyone has per day
 
-- name: _5h_; extra comments?
-- name: _6h_;
-- name: _5h_;
-- name: _4h_;
-- name: _3h_;
+- choti: _6h_;
+- haftu: _6h_;
+- hitomi: _6h_;
+- prince: _6h_;
 
 ## Asking for Help
 
