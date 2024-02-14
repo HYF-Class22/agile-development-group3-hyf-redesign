@@ -5,6 +5,7 @@
 :root {
   --blue: #1c2094;
   --white: #fff;
+  --gray: lightgray;
   --font-title: "Oswald", sans-serif;
   --font-text: helvetica, sans-serif;
 }
@@ -38,8 +39,8 @@ nav a {
   display: inline-block;
   color: var(--blue);
   text-align: right;
-  padding: 10px 15px;
-  margin-right: 24px;
+  padding: 10px 0;
+  margin-right: 20px;
   text-decoration: none;
   font-weight: lighter;
   letter-spacing: 1px;
@@ -61,7 +62,7 @@ nav li {
   background-color: var(--white);
   font-size: 12px;
   border: 1px solid #1c2094;
-  box-shadow: 2px 2px 2px gainsboro;
+  box-shadow: 2px 2px 2px var(--gray);
 }
 
 .menu-heading {
@@ -98,6 +99,13 @@ h1 {
   text-align: center;
 }
 
+h3 {
+  font-family: var(--font-title);
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
 .article-box {
   display: flex;
   flex-direction: row;
@@ -110,15 +118,8 @@ h1 {
   flex: 25%;
   margin: 0 20px;
   padding: 20px;
-  border: 1px solid lightgray;
+  border: 1px solid var(--gray);
   border-radius: 20px;
-}
-
-h3 {
-  font-family: var(--font-title);
-  font-size: 30px;
-  margin-top: 0;
-  margin-bottom: 10px;
 }
 
 .article p {
@@ -212,6 +213,39 @@ h3 {
 #subscribe {
   color: var(--blue);
   font-weight: bold;
+}
+
+footer {
+  margin-top: 60px;
+  text-align: center;
+  font-family: var(--font-text);
+  font-weight: lighter;
+  letter-spacing: 1px;
+}
+
+footer i {
+  color: var(--blue);
+  font-size: 36px;
+  margin: 0 16px;
+}
+
+.address {
+  color: var(--gray);
+  font-size: 14px;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+.email {
+  color: var(--blue);
+  font-size: 18px;
+  display: block;
+  margin-top: 24px;
+  text-decoration: none;
+}
+
+footer i:hover {
+  color: var(--gray);
 }
 
 /* keep style above */
