@@ -22,11 +22,6 @@ header {
   padding: 10px 50px;
 }
 
-.logo {
-  margin-right: 250px;
-  width: 200px;
-}
-
 nav {
   width: 100%;
   text-transform: uppercase;
@@ -56,26 +51,13 @@ nav li {
   position: relative;
 }
 
-.sub-program {
-  display: none;
-  position: absolute;
-  background-color: var(--white);
-  font-size: 12px;
-  border: 1px solid var(--blue);
-  box-shadow: 2px 2px 2px var(--gray);
-}
-
-.menu-heading {
-  display: none;
-}
-
-.menu-icon {
-  font-size: 36px;
-}
-
 nav li:focus-within ul {
   display: block;
   z-index: 1;
+}
+
+nav a:hover {
+  color: var(--gray);
 }
 
 main img {
@@ -175,6 +157,14 @@ h3 {
   object-fit: cover;
 }
 
+.menu-heading {
+  display: none;
+}
+
+.menu-icon {
+  font-size: 36px;
+}
+
 .name {
   font-size: 20px;
   text-transform: uppercase;
@@ -199,6 +189,20 @@ h3 {
   text-align: justify;
   color: var(--blue);
   font-weight: normal;
+}
+
+.logo {
+  margin-right: 250px;
+  width: 200px;
+}
+
+.sub-program {
+  display: none;
+  position: absolute;
+  background-color: var(--white);
+  font-size: 12px;
+  border: 1px solid var(--blue);
+  box-shadow: 2px 2px 2px var(--gray);
 }
 
 #res {
@@ -269,6 +273,11 @@ footer i:hover,
     text-align: center;
   }
 
+  .sub-program {
+    position: absolute;
+    right: 4px;
+  }
+
   nav:hover ul {
     display: block;
   }
@@ -282,8 +291,8 @@ footer i:hover,
   }
 
   .logo {
-    margin-right: 0;
-    width: 200px;
+    margin-right: 30px;
+    width: 150px;
   }
 
   nav:hover .sub-program {
@@ -299,8 +308,8 @@ footer i:hover,
     display: inline-block;
     position: absolute;
     right: 60px;
-    top: 70px;
     font-size: 18px;
+    top: 50px;
   }
 }
 
@@ -341,5 +350,20 @@ footer i:hover,
   .col {
     flex: 100%;
     max-width: 100%;
+  }
+
+  .menu-heading {
+    right: 20px;
+  }
+}
+
+@media only screen and (width <= 400px) {
+  nav {
+    font-size: 12px;
+  }
+
+  .sub-program {
+    right: 8px;
+    font-size: 10px;
   }
 }
