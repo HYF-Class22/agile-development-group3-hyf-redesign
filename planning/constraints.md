@@ -4,6 +4,8 @@ Some boundaries around our project.
 
 ## External
 
+- project deadlines
+
 <!--
   constraints coming from the outside that your team has no control over.
   These may include:
@@ -21,6 +23,9 @@ Some boundaries around our project.
   - amount of time available to work on the project
 -->
 
+- Technical challenges that may arise during the HTML and CSS coding process.
+- Limited expertise in design and coding
+
 ## Internal: Voluntary
 
 <!--
@@ -30,3 +35,6 @@ Some boundaries around our project.
   - the number of hours you want to spend working
   - only using the colors black and white
 -->
+
+- Consistent and clear class names to improved readability and maintenance
+- Consistent update and communicate with other team members
