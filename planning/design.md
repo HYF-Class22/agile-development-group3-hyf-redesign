@@ -2,7 +2,7 @@
 
 ## Project's design overview
 
-Building on the earlier design, the current approach keeps things modern.
+Building on the earlier design, the current approach keeps things simple.
 It highlights a deep blue color and a plain white background to go well
 with the HYF logo. This design aims to be user-friendly and work smoothly
 with various devices.
@@ -26,7 +26,7 @@ Text Font: `Helvetica, sans-serif`
 
 ## Wireframe(s)
 
-![screenshot.jpg](../public/logo_hyf.png)
+![wireframe](../public/wireframe.png)
 
 🎨 Link to
 [wireframe](https://excalidraw.com/#room=53f8d5cd4dfc1700d016,Q5APICpMtPwl5enXNiFk6A)
