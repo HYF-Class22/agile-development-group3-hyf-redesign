@@ -26,6 +26,7 @@ user groups, including students, volunteers, partners and sponsors.
 
 - HTML5 for semantic structure.
 - Plain CSS for styling
+- GitHub for collaborating
 
 ## Features
 
