@@ -4,7 +4,7 @@
 
 <!-- any general rules you'd like to set for your group? -->
 
-- Always give Feedback and Suggestions in the shared Google Doc for other
+- Always give Feedback and Suggestions in the Discussion on GitHub for other
   members to read and review.
 - Always communicate
 
