@@ -26,7 +26,7 @@ Text Font: `Helvetica, sans-serif`
 
 ## Wireframe(s)
 
-![wireframe](../public/wireframe.png)
+![wireframe](wireframe.png)
 
 🎨 Link to
 [wireframe](https://excalidraw.com/#room=53f8d5cd4dfc1700d016,Q5APICpMtPwl5enXNiFk6A)
