@@ -1,7 +1,8 @@
-@import url("./something.css");
+@import url(".styles/index.css");
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
 
 /* CSS Variables  */
+
 :root {
   --blue: #1c2094;
   --white: #fff;
@@ -54,6 +55,13 @@ nav li {
 nav li:focus-within ul {
   display: block;
   z-index: 1;
+}
+
+.horizontal-links a {
+  text-decoration: none;
+  color: var(--blue);
+  font-weight: bold;
+  font-size: 30px;
 }
 
 nav a:hover {
@@ -171,26 +179,6 @@ h3 {
   margin: 20px 0;
 }
 
-.form2 {
-  font-family: var(--font-text);
-  background-color: var(--white);
-  letter-spacing: 0.05em;
-  font-weight: normal;
-  font-size: 26px;
-  text-align: justify;
-  color: var(--blue);
-}
-
-.form3 {
-  font-size: 16px;
-  font-family: var(--font-text);
-  letter-spacing: 0.05em;
-  line-height: 2;
-  text-align: justify;
-  color: var(--blue);
-  font-weight: normal;
-}
-
 .logo {
   margin-right: 250px;
   width: 200px;
@@ -203,21 +191,6 @@ h3 {
   font-size: 12px;
   border: 1px solid var(--blue);
   box-shadow: 2px 2px 2px var(--gray);
-}
-
-#res {
-  color: var(--blue);
-  font-weight: bold;
-}
-
-#btn {
-  color: var(--blue);
-  font-weight: bold;
-}
-
-#subscribe {
-  color: var(--blue);
-  font-weight: bold;
 }
 
 footer {
@@ -366,4 +339,42 @@ footer i:hover,
     right: 8px;
     font-size: 10px;
   }
+}
+
+.users-link {
+  display: flex;
+  flex-direction: row;
+  color: var(--blue);
+  font-size: 10px;
+  background-color: var(--white);
+}
+
+.horizontal-links {
+  display: flex;
+  flex-direction: row;
+  color: var(--blue);
+  font-size: 10px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  color: var(--blue);
+  font-size: 30px;
+  font-family: var(--font-title);
+}
+
+.users-link a:hover {
+  background-color: var(--gray);
+}
+
+.horizontal-links li {
+  margin-right: 400px;
+  color: var(--blue);
+  font-family: var(--font-title);
+}
+
+.horizontal-links li:last-child {
+  margin-right: 0;
 }
