@@ -20,7 +20,9 @@ user groups, including students, volunteers, partners and sponsors.
 
 ## Screenshots
 
-![Example screenshot](./planning/screenshot.jpg)
+![Example screenshot](public/screenshot1.png)
+![Example screenshot](public/screenshot2.png)
+![Example screenshot](public/screenshot4.png)
 
 ## Technologies
 
