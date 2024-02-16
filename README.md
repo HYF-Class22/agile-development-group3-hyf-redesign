@@ -1,7 +1,8 @@
 # HackYourFuture Belgium Redesign
 
 > In this project, our goal is to create an improved and user-friendly home page
-using HTML and plain CSS. We'll focus on delivering a clean and responsive design.
+> using HTML and plain CSS. We'll focus on delivering a clean and responsive
+> design.
 
 ## Table of contents
 
@@ -42,4 +43,5 @@ Project is: _in progress_
 ## Contact
 
 By [Choti](https://github.com/jgchoti), [Haftu](https://github.com/Tesfay20),
-[Hitomi](https://github.com/hitomipupil), [Prince](https://github.com/rugiraprince)
+[Hitomi](https://github.com/hitomipupil),
+[Prince](https://github.com/rugiraprince)
