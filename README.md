@@ -22,7 +22,7 @@ user groups, including students, volunteers, partners and sponsors.
 
 ![Example screenshot](public/screenshot1.png)
 ![Example screenshot](public/screenshot2.png)
-![Example screenshot](public/screenshot4.png)
+![Example screenshot](public/screenshot3.png)
 
 ## Technologies
 
