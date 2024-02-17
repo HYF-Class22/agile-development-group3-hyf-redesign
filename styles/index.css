@@ -378,3 +378,47 @@ h2 {
 .horizontal-links li:last-child {
   margin-right: 0;
 }
+
+.container {
+  max-width: 100%;
+  margin-top: 0;
+  background-color: var(--white);
+  padding: 5px;
+  color: var(--gray);
+  align-items: center;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: row;
+  color: var(--blue);
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 4px;
+  margin-bottom: 16px;
+  border: 1px solid var(--gray);
+  border-radius: 4px;
+  margin-right: 30px;
+  width: 50%;
+}
+
+.contact-form button {
+  background-color: var(--gray);
+  color: var(--blue);
+  font-size: 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  font-weight: bold;
+  width: 20%;
+}
+
+.contact-form button:hover {
+  background-color: var(--white);
+}
+
